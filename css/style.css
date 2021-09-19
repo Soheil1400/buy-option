@@ -33,7 +33,7 @@ body{
     justify-content: center;
     text-align: left;
     line-height: 4rem;
-    padding: 2rem;
+    padding: 0 4rem;
 }
 .header1 div h1{
     font-size: 3rem;
@@ -50,7 +50,7 @@ body{
     justify-items: center;
     align-content: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 0 4rem;
 }
 .number--range{
     width: 100%;
@@ -62,7 +62,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     justify-items: center;
-    padding: 2rem;
+    padding: 0 4rem;
 }
 .btn{
     border-radius: 1rem;
@@ -186,6 +186,7 @@ body{
         align-items: center;
         justify-items: center;
         text-align: center;
+        padding: 1rem;
     }
     .header2{
         grid-area: header2;
@@ -195,6 +196,10 @@ body{
         align-items: center;
         justify-items: center;
         font-weight: bold;
+        padding: 1rem;
+    }
+    .number{
+        padding: 1rem;
     }
 }
 /*@media only screen and (max-width: 900px) {
