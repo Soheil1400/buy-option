@@ -78,15 +78,31 @@ body{
 }
 .box1{
     grid-area: box1;
+    opacity: 50%;
+}
+.box1:hover {
+    opacity: 100%;
 }
 .box2{
     grid-area: box2;
+    opacity: 50%;
+}
+.box2:hover {
+    opacity: 100%;
 }
 .box3{
     grid-area: box3;
+    opacity: 50%;
+}
+.box3:hover {
+    opacity: 100%;
 }
 .box4{
     grid-area: box4;
+    opacity: 50%;
+}
+.box4:hover {
+    opacity: 100%;
 }
 .card{
     border-radius: 1rem;
@@ -253,5 +269,5 @@ body{
         border-radius: 100%;
         border: 2px solid white;
     }
-
 }
+
